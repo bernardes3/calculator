@@ -6,7 +6,7 @@
   
   "private": true,
   
-  "homepage": "http://bernardes3.github.io/my-app",
+  "homepage": "https://bernardes3.github.io/my-app",
   
   "dependencies": {
   
@@ -60,7 +60,7 @@
   "predeploy": "npm run build",
   
     
-  "deploy": "gh-pages -d build"
+  "deploy": "gh-pages -b master -d build"
   
   },
   
